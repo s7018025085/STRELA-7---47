@@ -1,0 +1,454 @@
+.x138 {
+  background-color: #e8fbe9;
+  font-size: 14px;
+}
+
+.xs0 {
+  //text-transform: uppercase;
+  line-height: 0.9;
+}
+
+#b1 {
+  position: absolute;
+  top: 10px;
+  right: 110px;
+  z-index: 1;
+}
+
+.xrb {
+  height: 35px !important;
+}
+.xrg {
+  top: 0px !important;
+}
+//.x12v  tbody > tr > *:nth-child(3), .x12v  tbody > tr > *:nth-child(4), .x12v  tbody > tr > *:nth-child(5) {
+//	display: none;}
+//.x12n  tbody > tr > *:nth-child(3), .x12n  tbody > tr > *:nth-child(4), .x12n  tbody > tr > *:nth-child(5) {
+//	display: none;}
+.x1b4 {
+  width: 900px !important;
+  height: 600px !important;
+}
+
+.xsq:checked {
+  margin: 10px;
+}
+
+.mps {
+  font-size: 15px;
+  background-color: #eed4f8;
+}
+
+.uzel {
+  font-size: 15px;
+  background-color: #ffd9ca;
+}
+
+.rovd {
+  background-color: #aef7bd;
+}
+
+.uchastkovii {
+  font-size: 15px;
+  background-color: #77f0c7;
+}
+
+.uvenal {
+  font-size: 15px;
+  background-color: #ff9bd3;
+}
+
+.x138 {
+  font-size: 14px;
+}
+.xro .xs0 {
+  font-size: 25px;
+}
+
+.x12n,
+.x13f {
+  line-height: 0.9;
+}
+
+//div, table {background: #000;}
+
+//span, label, div{color: #00ff4c;}
+
+.p_AFInactive,
+.p_AFSelected {
+  background: #eee284;
+  line-height: 20px;
+  font-style: italic;
+}
+
+#sbc3 > td:nth-child(1) > label:nth-child(1) {
+  color: green;
+}
+
+#td2 {
+  text-align: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 3px;
+  background-color: white;
+}
+
+#td2 :first-child {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+#td2 :nth-child(2) {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+#td2 :nth-child(3) {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+#td2 :nth-child(4) {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+
+.btn {
+  display: block;
+  line-height: 14px;
+  border-color: rgb(149, 182, 212) rgb(149, 182, 212) rgb(146, 179, 209);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  background-image: -moz-linear-gradient(
+    rgb(207, 246, 204) 0%,
+    rgb(177, 242, 184) 100%
+  );
+  text-decoration: none;
+  color: #000;
+  line-height: 12px;
+  font-size: 12px;
+  letter-spacing: 0.002em;
+  background: #ff8f8f;
+}
+
+.btn:hover {
+  background: #ff0000;
+  color: #fafdff;
+}
+
+.btn:active {
+  background: green;
+  color: #fafdff;
+}
+
+.btn_find {
+  line-height: 14px;
+  border-color: rgb(64, 158, 244) rgb(21, 136, 240) rgb(21, 86, 145);
+  background-image: -moz-linear-gradient(
+    rgb(201, 223, 244) 0%,
+    rgb(96, 174, 249) 100%
+  );
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.021em;
+  font-style: normal;
+  cursor: pointer;
+  background: rgb(191, 218, 244);
+  width: 75px;
+}
+
+.btn_find:hover {
+  background: #1588f0;
+}
+
+.btn_find:active {
+  background: green;
+  color: #fafdff;
+}
+
+.tabs {
+  display: block;
+  padding: 5px;
+  margin: 0px auto;
+  position: absolute;
+  z-index: 11111;
+  bottom: 0;
+}
+.tabs > input {
+  display: none;
+}
+.tabs > div {
+  display: none;
+  padding: 5px;
+  border: 1px solid #c0c0c0;
+  background: #ffffff;
+  overflow: auto;
+  height: 180px;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0em;
+  font-style: normal;
+  width: 425px;
+}
+
+.tabs > label {
+  display: inline-block;
+  padding: 7px;
+  margin: 0 -5px -1px 0;
+  text-align: center;
+  color: #666666;
+  border: 1px solid #c0c0c0;
+  background: #e0e0e0;
+  cursor: pointer;
+  border-radius: 5px 5px 0 0;
+}
+.tabs > input:checked + label {
+  color: #000000;
+  border: 1px solid #c0c0c0;
+  border-bottom: 1px solid #ffffff;
+  background: #aef7bd;
+}
+#tab1:checked ~ #txt_1,
+#tab2:checked ~ #txt_2,
+#tab3:checked ~ #txt_3,
+#tab4:checked ~ #txt_4 {
+  display: block;
+  border-radius: 0 0 5px 5px;
+}
+
+.chislo_add {
+  float: right;
+  position: absolute;
+  right: 345px;
+  top: -9px;
+  background: red none repeat scroll 0 0;
+  border: 3px solid #fdf4c1;
+  border-radius: 30px;
+  color: #fff;
+  margin: 0;
+  padding: 1px 5px 3px 5px;
+  text-align: center;
+  text-shadow: 0 -1px 1px #e01b0f;
+  z-index: 10;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.chislo_razblok {
+  float: right;
+  position: absolute;
+  right: 230px;
+  top: -9px;
+  background: red none repeat scroll 0 0;
+  border: 3px solid #fdf4c1;
+  border-radius: 30px;
+  color: #fff;
+  margin: 0;
+  padding: 1px 5px 3px 5px;
+  text-align: center;
+  text-shadow: 0 -1px 1px #e01b0f;
+  z-index: 10;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.chislo_blok {
+  float: right;
+  position: absolute;
+  right: 130px;
+  top: -9px;
+  background: red none repeat scroll 0 0;
+  border: 3px solid #fdf4c1;
+  border-radius: 30px;
+  color: #fff;
+  margin: 0;
+  padding: 1px 5px 3px 5px;
+  text-align: center;
+  text-shadow: 0 -1px 1px #e01b0f;
+  z-index: 10;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.chislo_smena {
+  float: right;
+  position: absolute;
+  right: 0px;
+  top: -9px;
+  background: red none repeat scroll 0 0;
+  border: 3px solid #fdf4c1;
+  border-radius: 30px;
+  color: #fff;
+  margin: 0;
+  padding: 1px 5px 3px 5px;
+  text-align: center;
+  text-shadow: 0 -1px 1px #e01b0f;
+  z-index: 10;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+#tr {
+  background-image: -moz-linear-gradient(
+    rgb(233, 241, 249) 0%,
+    rgb(232, 244, 255) 100%
+  );
+}
+#td {
+  width: 100%;
+}
+
+.del_erdr_btn {
+  background: url("http://192.168.60.2/Images/Delete.gif") no-repeat 50% 50%
+    #ccde21;
+  height: 20px;
+  width: 20px;
+  border-radius: 6px;
+  border: 1px solid #05660c;
+  position: relative;
+  left: 3px;
+}
+
+.del_erdr_btn:hover {
+  border-color: #ffcb22;
+  filter: drop-shadow(3px 3px 3px red);
+}
+
+.del_erdr_btn:active {
+  border-color: red;
+}
+
+.edit_erdr_btn {
+  background: url("http://192.168.60.2/Images/Modify.gif") no-repeat 50% 50%
+    #ccde21;
+  height: 25px;
+  width: 25px;
+  border-radius: 6px;
+  border: 1px solid #05660c;
+}
+
+.edit_erdr_btn:hover {
+  border-color: #ffcb22;
+  filter: drop-shadow(3px 3px 3px red);
+}
+
+.edit_erdr_btn:active {
+  border-color: red;
+}
+
+.p_AFSelected {
+  background-color: #95b6d4 !important;
+}
+
+.x138 {
+  background: #ffffff00 !important;
+  background-color: #ffffff00 !important;
+  font-size: 15px !important;
+}
+
+.x138:hover {
+  background: #aef7bdc2 !important;
+  background-color: #00ff70 !important;
+  font-size: 15px !important;
+  cursor: pointer !important;
+  // border: solid 1px #00ff70;
+}
+
+.p_AFInactive,
+.p_AFSelected {
+  background: #00fd347a !important;
+}
+
+.x1a > tbody > tr > td > span {
+  cursor: pointer !important;
+}
+
+.x1a > tbody > tr > td > img {
+  //width: 3px !important;
+}
+
+#edit_b:hover,
+#del_b:hover,
+#exit_find:hover,
+#find:hover {
+  background: azure !important;
+}
+
+.tabs > label:hover {
+  background: #6ff78b;
+}
+
+.x12m {
+  background: linear-gradient(to top, #eec9721c, #f7eae205);
+}
+
+span {
+  cursor: pointer !important;
+}
+
+.btn_sakura {
+  border-color: rgb(64, 158, 244) rgb(21, 136, 240) rgb(21, 86, 145);
+  background-image: -moz-linear-gradient(
+    rgb(201, 223, 244) 0%,
+    rgb(96, 174, 249) 100%
+  );
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  font-size: 12px;
+  font-style: normal;
+  cursor: pointer;
+  background: rgb(191, 218, 244);
+  text-decoration: none;
+  line-height: 23px;
+}
+
+.btn_sakura:hover {
+  background: #1588f0;
+}
+
+.btn_sakura:active {
+  background: green;
+  color: #fafdff;
+}
+
+.div_sacura {
+  display: inline;
+  float: right;
+}
+
+.neu-btn {
+  background: #e8ecf2;
+  color: #333;
+  margin: 3px;
+  text-decoration: none;
+  border-radius: 9999px;
+  border: 4px solid #e8ecf2;
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.8),
+    5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.neu-btn:hover {
+  color: rgb(211, 24, 24);
+
+  box-shadow: -1px -1px 5px rgba(255, 255, 255, 0.6),
+    1px 1px 5px rgba(0, 0, 0, 0.3), inset -2px -2px 5px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.xkx {
+  filter: drop-shadow(7px 7px 5px red);
+}

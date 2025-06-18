@@ -1,0 +1,172 @@
+{
+  "manifest_version": 2, // Обязательный ключ
+  "name": "Strela systems", // Обязательный ключ
+  "version": "7.47", // Обязательный ключ
+  "description": "Система стрела", // Описание
+  "icons": {
+    "16": "Icons/Forward.png",
+    "48": "Icons/Forward.png",
+    "128": "Icons/Forward.png"
+  }, // Иконка
+
+  "permissions": ["activeTab", "storage", "https://*/*", "http://*/*"],
+
+  "background": {
+    "scripts": ["JS/SIOPSO/background.js"],
+    "persistent": false
+  },
+
+  "content_scripts": [
+    // E-Otinish
+    {
+      "matches": ["http://10.61.140.66/*"],
+      "css": ["css/EO.css"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["http://10.61.140.66/auth/login*"],
+      "css": ["css/EO.css"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["http://10.61.140.66/admin/staff*"],
+      "js": ["JS/EOtinish/EOtinishMain.js"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["http://10.61.140.66/admin/search*"],
+      "css": ["css/EO.css"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["http://10.61.140.66/admin/*"],
+      "css": ["css/EO.css"],
+      "run_at": "document_start"
+    },
+
+    // СИОПСО
+    {
+      "matches": ["<all_urls>"],
+      "js": ["JS/SIOPSO/contentSIOPSO.js"],
+      "css": ["CSS/SIOPSO.css"]
+    },
+
+    //Web Interface
+    {
+      "matches": ["http://10.61.36.150/*"],
+      "css": ["css/web.css"],
+      "js": ["JS/WebInterface/WebLogin.js"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["http://10.61.36.150/ibdrqs/login*"],
+      "css": ["css/web.css"],
+      "run_at": "document_start"
+    },
+    {
+      "matches": ["http://10.61.36.150/ibdrqs/?*"],
+      "js": ["JS/WebInterface/WebAll.js"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["http://10.61.36.150/ibdrqs/wicket/page*"],
+      "js": ["JS/WebInterface/WebUser.js"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["http://10.61.36.150/ibdrqs/wicket/*"],
+      "css": ["css/web.css"],
+      "js": ["JS/WebInterface/WebUsersReport.js"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["http://10.61.36.150/ibdrqs/users*"],
+      "js": [
+        "JS/WebInterface/WebUsers.js",
+        "JS/WebInterface/WebTabsSakura.js",
+        "JS/WebInterface/WebDay.js",
+        "JS/WebInterface/GetUser80.js",
+        "JS/WebInterface/AddUserList.js"
+      ],
+      "run_at": "document_end"
+    },
+
+    // ВЕБ ЕРДР
+    {
+      "matches": ["http://10.61.209.47/erdradmin/faces/*"],
+      "js": ["JS/ERDR/ErdrLogin.js"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["http://10.61.209.47/erdradmin/faces/main*"],
+      "js": ["JS/ERDR/ErdrMain.js"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["http://10.61.209.47/erdradmin/faces/*"],
+      "js": ["JS/ERDR/ErdrFace.js"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["http://10.61.209.47/erdradmin*"],
+      "js": ["JS/jquery.js"],
+      "css": ["css/erdr.css"],
+      "run_at": "document_end"
+    },
+
+    // CRM
+    {
+      "matches": ["https://crm.gov.kz/SOGo/*"],
+      "js": ["JS/CRM/CRMLogin.js"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["https://crm.gov.kz/*"],
+      "js": ["JS/jquery.js", "JS/CRM/main.js"],
+      "css": ["css/CRM.css"],
+      "run_at": "document_end"
+    },
+
+    // 1С
+    {
+      "matches": ["http://192.168.14.220/*"],
+      "js": ["JS/OdinС/main.js"],
+      "css": ["css/OdinС.css"],
+      "run_at": "document_end"
+    },
+
+    // Documentolog
+    {
+      "matches": ["https://mvd.qujat.gov.kz/*"],
+      "js": ["JS/Documentolog/DocLogin.js"],
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["https://mvd.qujat.gov.kz/*"],
+      "js": ["JS/Documentolog/DocMain.js"],
+      "all_frames": true,
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["https://mvd.qujat.gov.kz/*"],
+      "css": ["css/Doc.css"],
+      "run_at": "document_start"
+    },
+    {
+      "matches": [
+        "https://mvd.qujat.gov.kz/workflow/document/create/*mydocuments"
+      ],
+      "css": ["css/Doc.css"],
+      "js": ["JS/Documentolog/CreateDoc.js"],
+      "run_at": "document_end"
+    },
+
+    // MetaDoc
+    {
+      "matches": ["https://mvd-odo.qujat.gov.kz/*"],
+      "js": ["JS/MetaDoc/main.js"],
+      "css": ["css/MetaDoc.css"],
+      "run_at": "document_end"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+.fix {
+  width: 99%;
+}
+.cont-right {
+  float: left;
+  width: 81%;
+}
+
+.text {
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100%;
+}
+
+.aui-w3-10,
+.aui-w30 {
+  width: 99%;
+}
+
+.content {
+  position: relative;
+  margin: 12px 0 0 0;
+  background: url(../images/media/content1.gif) repeat-y left top white;
+  // background:   #6d94b0;
+}
+
+#column-2 {
+  display: none;
+}
+
+#parentMailContainer {
+  background: aliceblue;
+}
+
+#portal_submenu {
+  background: aliceblue;
+}
+
+#contentDownloadTumarCsp {
+  position: absolute;
+  left: 45%;
+  top: 20px;
+  z-index: 1;
+}

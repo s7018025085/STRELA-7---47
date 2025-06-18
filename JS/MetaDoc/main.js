@@ -1,0 +1,1 @@
+console.log("скрипт MetaDoc загружен");

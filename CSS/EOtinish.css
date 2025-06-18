@@ -1,0 +1,150 @@
+body {
+  padding: 0px !important;
+  margin: 0px !important;
+  line-height: 1 !important;
+}
+#kt_content {
+  background: antiquewhite;
+}
+
+.table td {
+  padding: 3px !important;
+  border: 1px solid #06a486 !important;
+}
+
+.table th {
+  padding: 0px !important;
+  border: 1px solid #06a486 !important;
+}
+
+.table tr {
+  height: 26px !important;
+}
+
+.card {
+  word-wrap: normal !important;
+}
+
+.side-list__item {
+  padding: 3px 3px !important;
+  border-top: 1px solid #005eff !important;
+  border-right: 1px solid #005eff !important;
+  border-left: 1px solid #005eff !important;
+}
+.back,
+div {
+  padding: 0px !important;
+  padding-right: 3px !important;
+  padding-left: 10px !important;
+}
+li {
+  height: 25px !important;
+}
+
+.card-custom {
+  width: 460px !important;
+}
+
+.card-stretch {
+  width: 100% !important;
+}
+
+.col-lg-4 {
+  max-width: 25% !important;
+}
+
+.col-lg-8 {
+  max-width: 75% !important;
+  flex: 0 0 75% !important;
+}
+
+#splash-screen {
+  display: none !important;
+}
+
+.actions {
+  height: 20px !important;
+}
+
+#kt_header {
+  display: block !important;
+  position: inherit !important;
+}
+
+.input-icon.input-icon-right .form-control {
+  border: 1px solid #06a486;
+}
+
+.back-text[_ngcontent-kri-c173] {
+  color: #0059ff !important;
+}
+
+.aside-minimize:not(.aside-minimize-hover) .aside {
+  width: 70px;
+  display: none !important;
+}
+
+strong {
+  font-weight: 900;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.modal-content {
+  background: antiquewhite;
+}
+
+.form-control {
+  font-size: 19px !important;
+}
+
+.gutter-b {
+  width: 100% !important;
+}
+.btn {
+  margin: 2px;
+}
+
+.side-list {
+  font-weight: 800;
+  font-size: 14px;
+}
+
+.DivSakura {
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  top: 0px;
+  left: 600px;
+  background: antiquewhite;
+  border-radius: 6px;
+  padding: 15px !important;
+}
+
+.tableSakura {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  border-collapse: collapse;
+  color: #686461;
+}
+.tableSakura > caption {
+  padding: 10px;
+  color: white;
+  background: #8fd4c1;
+  font-size: 18px;
+  text-align: left;
+  font-weight: bold;
+}
+.tableSakura > th {
+  border-bottom: 3px solid #b9b29f;
+  padding: 10px;
+  text-align: left;
+}
+.tableSakura > td {
+  padding: 10px;
+}
+.tableSakura > tr:nth-child(odd) {
+  background: white;
+}
+.tableSakura > tr:nth-child(even) {
+  background: #e8e6d1;
+}

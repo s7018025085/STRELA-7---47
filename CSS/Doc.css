@@ -1,0 +1,433 @@
+.SplitterDoc {
+  float: left;
+  width: 10px;
+}
+
+#fullscreen_control_block {
+  width: 100%;
+  margin-top: 5px;
+  border-radius: 6px;
+}
+
+.ui-dialog {
+  width: 60% !important;
+}
+
+.rezolutsiya,
+.selected_items,
+.field_date_edit {
+  width: 99% !important;
+}
+
+.field_integer_edit,
+.form-control {
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.SakuraUrl {
+  text-decoration: none;
+  color: black;
+}
+#for_hot_key_3 {
+  background-color: #71aa3a;
+}
+
+.grid_row_single_line a {
+  white-space: normal !important;
+}
+
+.control_timeline .control_timeline_inner {
+  position: absolute !important;
+  margin: -17px auto 0px 0px !important;
+}
+
+.panel-body {
+  padding: 0px !important;
+  padding-top: 0px !important;
+}
+
+.panel-info {
+  box-shadow: 0 0 5px;
+  border-radius: 6px;
+  margin-left: 10px !important;
+  width: 97%;
+  padding: 3px;
+  margin: 6px !important;
+}
+
+#tabtitles,
+.tabtitles-mt {
+  position: absolute;
+  margin-top: -100px;
+  background: #bfec93;
+  color: black;
+  right: 0;
+  border: 1px solid;
+  border-radius: 4px;
+}
+
+.field_big_wrap {
+  margin-bottom: 3px !important;
+  border-radius: 6px !important;
+  margin-top: 3px;
+}
+
+#footer {
+  display: none !important;
+}
+
+.paper {
+  border-radius: 6px !important;
+  background-color: #b9fbb8;
+  padding: 5px 15px 5px 5px !important;
+}
+
+.attached_file-active > a.filename {
+  background-color: #0d47a1 !important;
+  color: #fff !important;
+}
+
+#left_sidebar,
+#page_columns {
+  background: linear-gradient(#0d47a1, #92e698 105px);
+}
+
+#page_columns {
+  padding-top: 20px;
+}
+
+#header {
+  height: 20px;
+}
+
+#header_menu li a {
+  line-height: 0px;
+  display: inline;
+}
+
+#content_toolbar {
+  top: 20px;
+}
+
+#header_user_menu > li a {
+  line-height: 20px;
+}
+
+.header_menu_wrap #header_menu > li:first-child {
+  left: 0px !important;
+  top: 0px !important;
+}
+
+.point {
+  height: 16px !important;
+  line-height: 16px !important;
+}
+
+.point::before {
+  border-width: 8px 0 8px 23px !important;
+  top: 0px !important;
+}
+
+.point.complete::after,
+.point.current::after,
+.control_timeline .line_points .point.current:last-child::after {
+  border-width: 8px 0 8px 18px !important;
+}
+
+#tabtitles li,
+.tabtitles-mt li {
+  padding: 5px 5px !important;
+}
+
+#content_toolbar {
+  padding: 3px 5px !important;
+  height: 20px !important;
+}
+
+#content_wrapper {
+  padding-top: 25px !important;
+}
+
+table.data {
+  background-color: #5deb5138 !important;
+}
+
+.aWeb {
+  color: aliceblue;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.036em;
+}
+
+.license_expired {
+  display: none !important;
+}
+
+table.data tr.data_row.color_5 * {
+  color: #000;
+}
+
+.lmk {
+  display: block ruby !important;
+}
+
+.btn {
+  border: 2px solid #0413ff;
+  border-radius: 3px;
+  margin: 1px;
+  background-color: #bfec93;
+}
+
+#referenceAutocomplete_aktenplan_index,
+textarea[title="Краткое содержание"],
+input[title="Лист."],
+input[title="Прил."],
+.panel-row_value > .field_structure_edit > div > input,
+.control_files_upload,
+input[placeholder="Введите БИН/ИИН, Наименование/ ФИО или E-mail"] {
+  background-color: #ffb5c3 !important;
+  color: #000 !important;
+}
+
+.place_holder,
+.input-inline,
+.field_date_edit,
+.control_files_upload,
+.field_string_edit {
+  width: 90% !important;
+  margin: 1px !important;
+  border-radius: 4px !important;
+}
+
+.input-inline:focus,
+textarea:focus {
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 8px rgba(102, 175, 233, 0.6) !important;
+  border: 1px solid #23ef23 !important;
+}
+
+#phone_isp {
+  display: none;
+}
+
+input {
+  border: 1px solid #0d47a1 !important;
+  border-radius: 4px !important;
+  min-width: 100% !important;
+  max-height: 25px !important;
+}
+
+.field_integer_edit,
+#document_route,
+input.changemonitor,
+#document_route ~ input {
+  width: auto !important;
+  min-width: auto !important;
+  padding: 5px !important;
+}
+
+.panel-heading {
+  height: 22px !important;
+  padding: 1px !important;
+  margin: 1px !important;
+  border: none !important;
+}
+
+.open_window_btn {
+  top: -2px !important;
+}
+
+.panel-row_key,
+.panel-row_value {
+  padding: 2px !important;
+  vertical-align: middle !important;
+}
+
+// анимация курсора
+.cursor {
+  position: fixed;
+  z-index: 99999;
+}
+
+.cursor .click-animation {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cursor .click-animation .shape {
+  position: absolute;
+  opacity: 0;
+}
+
+.cursor .click-animation .shape.circle.big {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #4fb4f8;
+  border-radius: 50%;
+}
+
+.cursor .click-animation .shape.circle.small {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #2ca8fa;
+  border-radius: 50%;
+}
+
+.cursor.active .click-animation .shape.circle {
+  animation: click-animation-cilcle 3s ease-out infinite;
+}
+
+@keyframes click-animation-cilcle {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+    transform: scale(3);
+  }
+}
+
+.cursor .click-animation .shape.triangle.yellow {
+  border-style: solid;
+  border-width: 0 5px 10px 5px;
+  border-color: transparent transparent #f9de2d transparent;
+}
+
+.cursor.active .click-animation .shape.triangle.yellow {
+  animation: click-animation-triangle-yellow 3s ease-out infinite;
+}
+
+@keyframes click-animation-triangle-yellow {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+    transform: scale(2.5) translate(50px, -50px) rotate(360deg);
+  }
+}
+
+.cursor .click-animation .shape.triangle.green {
+  border-style: solid;
+  border-width: 0 3.5px 7px 3.5px;
+  border-color: transparent transparent #47eda0 transparent;
+}
+
+.cursor.active .click-animation .shape.triangle.green {
+  animation: click-animation-triangle-green 3s ease-out infinite;
+}
+
+@keyframes click-animation-triangle-green {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+    transform: scale(2.5) translate(20px, 50px) rotate(360deg);
+  }
+}
+
+.cursor .click-animation .shape.disc {
+  width: 8.5px;
+  height: 8.5px;
+  background: #d563f8;
+  border-radius: 50%;
+}
+
+.cursor.active .click-animation .shape.disc {
+  animation: click-animation-disc 3s ease-out infinite;
+}
+
+@keyframes click-animation-disc {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+    transform: scale(2) translate(-70px, -30px);
+  }
+}
+
+#content_bottom_toolbar {
+  border-radius: 10px;
+}
+
+#content {
+  background: aliceblue;
+  border: 1px solid #51b934;
+  border-radius: 10px;
+}
+
+#content_toolbar {
+  background-color: #faebd700 !important;
+}
+
+div {
+  border-radius: 5px;
+}
+
+.ButAdd {
+  margin: 10px;
+}
+
+#results #thinking {
+  height: 2000px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  background-color: rgba(253, 63, 0, 0.305);
+  display: none;
+  font-size: 0;
+  color: transparent;
+}
+
+#results #thinking::before {
+  display: block;
+  position: absolute;
+  content: "";
+  left: -200px;
+  width: 68px;
+  height: 2000px;
+  background-color: rgba(81, 255, 0, 0.7);
+  animation: loading 0.7s linear infinite;
+  filter: blur(10px);
+}
+
+table.data tr.title td {
+  padding: 3px 0;
+}
+.content_bottom_toolbar_inner {
+  padding: 0px !important;
+  border-top: 1px solid #fff;
+}
+
+.data_row {
+  background-color: rgb(255, 255, 255);
+}
+
+#left_sidebar {
+  width: 200px;
+}
+
+#content_inner.content_inner_2c {
+  margin-left: 200px;
+}

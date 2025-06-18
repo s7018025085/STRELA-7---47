@@ -1,0 +1,44 @@
+.content-0-2-3, .platforms-0-2-24, .appsLink-0-2-39, .linkItem-0-2-38, .links-0-2-36 {
+  height: 15px;
+}
+
+.appsLink-0-2-39{
+  padding: 0 0 0 0;
+}
+
+.layout-0-2-1{
+  height: 100%;
+  margin-top: 40px;
+}
+
+.header-0-2-2{
+  height: 40px;
+}
+
+.content-0-2-3 {
+  padding: 20px 0;
+  }
+
+.m-r-3, .inactiveLink-0-2-19, span {
+  font-size: 14px;
+}
+
+.name-0-2-37 {
+  font-size: 10px;
+  color: black;
+}
+
+.md-tile-left{
+  display: none;
+}
+
+.sg-icon-badge-container{
+  display: none;
+}
+
+.md-tall{
+  height: 10px !important;
+  min-height: 25px !important;
+  max-height: 25px !important;
+}
+

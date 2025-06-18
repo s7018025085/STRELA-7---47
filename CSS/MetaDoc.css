@@ -1,0 +1,148 @@
+/*#### 1. Уменьшение отступов между элементами формы
+Bootstrap добавляет отступы через классы `form-group` и `form-row`. Мы можем их минимизировать:
+*/
+
+.form-group {
+  margin-bottom: 0.5rem; /* Уменьшаем стандартный 1rem до 0.5rem */
+}
+
+.form-row {
+  margin-bottom: 0.25rem; /* Уменьшаем расстояние между строками */
+}
+
+/*#### 2. Уменьшение высоты полей ввода и кнопок
+Стандартные элементы Bootstrap (`form-control`, `btn`) имеют большую высоту. Уменьшим её:
+*/
+.form-control {
+  height: 28px; /* Уменьшаем с ~38px до 28px */
+  padding: 0.25rem 0.5rem; /* Уменьшаем внутренние отступы */
+  font-size: 0.875rem; /* Уменьшаем размер шрифта с 1rem до 0.875rem */
+}
+
+.btn {
+  padding: 0.25rem 0.5rem; /* Уменьшаем отступы в кнопках */
+  font-size: 0.875rem;
+}
+
+/*#### 3. Оптимизация легенд 
+Легенды (`<legend>`) занимают много места. Можно сделать их inline с полями или уменьшить размер шрифта:
+*/
+.col-form-label {
+  font-size: 0.75rem; /* Уменьшаем размер текста меток */
+  padding-top: 0; /* Убираем верхний отступ */
+  margin-bottom: 0.25rem; /* Минимизируем нижний отступ */
+}
+
+/*#### 4. Компактные выпадающие списки
+Выпадающие списки с автодополнением (`rb-typeahead-infinite-scroll`) содержат `input-group` с дополнительными элементами (кнопка с иконкой). Уменьшим их:
+*/
+.input-group > .form-control {
+  height: 28px;
+}
+
+.input-group-append .btn {
+  height: 28px;
+  padding: 0 0.5 Draws5rem;
+}
+
+.rb-icon {
+  font-size: 0.75rem; /* Уменьшаем размер иконок */
+}
+
+/*#### 5. Уменьшение заголовков секций
+Заголовки `<h4>` в секциях (`rb-form-section`) можно сделать меньше:
+*/
+.rb-form-section h4 {
+  font-size: 1rem; /* Уменьшаем с ~1.5rem до 1rem */
+  margin-bottom: 0.5rem;
+}
+
+/*#### 6. Оптимизация сетки
+Если двухколоночная структура (`col-lg-6`) не обязательна, можно сделать одноколоночную (`col-lg-12`) для всех полей, чтобы избежать лишних отступов между колонками:
+*/
+
+.row {
+  margin-bottom: 0.25rem; /* Уменьшаем отступы между строками */
+}
+
+.col-lg-6,
+.col-lg-12 {
+  padding-left: 0.25rem; /* Уменьшаем горизонтальные отступы */
+  padding-right: 0.25rem;
+}
+
+/*#### 7. Уменьшение textarea
+Поле `<textarea>` занимает 2 строки по умолчанию. Уменьшим его:
+*/
+textarea.form-control {
+  height: 50px; /* Фиксированная высота вместо rows */
+  resize: vertical; /* Разрешаем пользователю менять размер вручную */
+}
+
+/*#### 8. Пример итогового CSS
+Вот объединённый CSS для вашего расширения:
+*/
+
+/* Общие стили для компактности */
+.form-group {
+  margin-bottom: 0rem;
+}
+
+.form-row {
+  margin-bottom: 0.25rem;
+}
+
+.form-control {
+  height: 28px;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+}
+
+.btn {
+  padding: 0.01rem 0.5rem;
+  font-size: 0.875rem;
+}
+
+.col-form-label {
+  font-size: 0.75rem;
+  padding-top: 0;
+  margin-bottom: 0.25rem;
+  height: 0.9rem;
+}
+
+/* Выпадающие списки */
+.input-group > .form-control {
+  height: 28px;
+}
+
+.input-group-append .btn {
+  height: 28px;
+  padding: 0 0.5rem;
+}
+
+.rb-icon {
+  font-size: 0.75rem;
+}
+
+/* Заголовки секций */
+.rb-form-section h4 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Сетка */
+.row {
+  margin-bottom: 0.25rem;
+}
+
+.col-lg-6,
+.col-lg-12 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+/* Textarea */
+textarea.form-control {
+  height: 50px;
+  resize: vertical;
+}

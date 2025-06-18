@@ -1,0 +1,10 @@
+.gridLine,
+.gridBox {
+  height: 50px !important;
+}
+
+.gridBoxText {
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  white-space: break-spaces !important;
+}
